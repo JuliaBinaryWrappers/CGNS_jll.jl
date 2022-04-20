@@ -1,0 +1,50 @@
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "2ca7a3e17492ad39a726a033f7c39fc5e159ae10"
+os = "macos"
+
+    [[CGNS.download]]
+    sha256 = "4c0dcfe1d61790911ec4597f7263dc53520645fb8eeb6118828577ebc2aefb2b"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.aarch64-apple-darwin.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "d2e723a21fd326216580ce5c87aee6adc4e61f4e"
+libc = "glibc"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "9af76b4a49f3bbd00b84ea87047194b9329a310e0fe3b286f18d0302661b8e5c"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.aarch64-linux-gnu.tar.gz"
+[[CGNS]]
+arch = "i686"
+git-tree-sha1 = "e48d132c9c39863e87e011803363f8b352f64692"
+os = "windows"
+
+    [[CGNS.download]]
+    sha256 = "3e73d309b476ee70122f3141dc732ddf42cc7839f3edcb42094350dfeec327cf"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.i686-w64-mingw32.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "c99da266994e73ff9b4ed72e9ab6127a2ef3622b"
+os = "macos"
+
+    [[CGNS.download]]
+    sha256 = "5248bed633b13a82e106927035c7d5c951d0808615d6c52a73daae4ef6c97cd2"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.x86_64-apple-darwin.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "19339cd0555fd3258f2c7708736829ce42bd4bae"
+libc = "glibc"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "befcec2f88f3bc2287adde51215688e862d5fda10ae6c54d97beaf1f897f76e2"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.x86_64-linux-gnu.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "edb59f995dedfc0ab140bfcab1e562a24cadacdd"
+os = "windows"
+
+    [[CGNS.download]]
+    sha256 = "09c853e742c2c5a5f3f7215eb00a3318ecc908cd366e4ea839c96ccd7cc60a79"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.x86_64-w64-mingw32.tar.gz"
