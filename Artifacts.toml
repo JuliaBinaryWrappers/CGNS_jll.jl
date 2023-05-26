@@ -1,50 +1,143 @@
 [[CGNS]]
 arch = "aarch64"
-git-tree-sha1 = "2ca7a3e17492ad39a726a033f7c39fc5e159ae10"
+git-tree-sha1 = "7a91419c9879eb076b5a38ee2411b0d913236a3f"
 os = "macos"
 
     [[CGNS.download]]
-    sha256 = "4c0dcfe1d61790911ec4597f7263dc53520645fb8eeb6118828577ebc2aefb2b"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.aarch64-apple-darwin.tar.gz"
+    sha256 = "36d8b8fdf7b5092ada506c039bb30e54e8cc8bd2a745e441f3037c08579172eb"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.aarch64-apple-darwin.tar.gz"
 [[CGNS]]
 arch = "aarch64"
-git-tree-sha1 = "d2e723a21fd326216580ce5c87aee6adc4e61f4e"
+git-tree-sha1 = "292a5445655357dc0d66013c04e03ba1d9c43e5e"
 libc = "glibc"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "9af76b4a49f3bbd00b84ea87047194b9329a310e0fe3b286f18d0302661b8e5c"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "0cb4403ed74ff4ffe159d6d92d2c4342bc95589225146651fd384f143a036037"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.aarch64-linux-gnu.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "fb5b3e9e3dad99b14eaf64155d38a32f3b336caa"
+libc = "musl"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "22e51b7b5c90a695c40b0922df85b0079320cc0d07906e38254ea1af63dc92ac"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.aarch64-linux-musl.tar.gz"
+[[CGNS]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8ddcb9cc5860ab5b6cfba6f451815909bfb7838f"
+libc = "glibc"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "07eef142ceea1b4dbb6c7fb94705b9d97f55197f6690ced91f8c154353f188e3"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.armv6l-linux-gnueabihf.tar.gz"
+[[CGNS]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "cab10590b68055f395d4fde685a9949074d07f8b"
+libc = "musl"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "aa30fc9ffb41f138464f0144d976772834233856e29f46ef72249a409955588a"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.armv6l-linux-musleabihf.tar.gz"
+[[CGNS]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "eb4e83219f5ec13addb3ee6f100d94e156e1ed46"
+libc = "glibc"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "432a3d2b75694a851fa88294434100953e34d596009b322bff768e92db346fac"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.armv7l-linux-gnueabihf.tar.gz"
+[[CGNS]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "ac3abcbb402b5cce63a90beaa84c10a19dcbf613"
+libc = "musl"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "2779afc1627750470c494def95081ad3d130b8c7b914f446eb0d51b43687e5ce"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.armv7l-linux-musleabihf.tar.gz"
 [[CGNS]]
 arch = "i686"
-git-tree-sha1 = "e48d132c9c39863e87e011803363f8b352f64692"
+git-tree-sha1 = "0bb79d76118baae81c4e75b18c90865773c2e932"
+libc = "glibc"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "9271a3a0495ccaa6974570744fdf221dbc32be24be27bdf99229650f45d5488e"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.i686-linux-gnu.tar.gz"
+[[CGNS]]
+arch = "i686"
+git-tree-sha1 = "b19f5694baa59e58e676f5cd57b572135ba8caa4"
+libc = "musl"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "7381803d85ad7da29bfae72560f9d274937188d168e60dc42517441f74e12ec2"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.i686-linux-musl.tar.gz"
+[[CGNS]]
+arch = "i686"
+git-tree-sha1 = "1c21a31534a7f023abe6ede8dd932d913464dd82"
 os = "windows"
 
     [[CGNS.download]]
-    sha256 = "3e73d309b476ee70122f3141dc732ddf42cc7839f3edcb42094350dfeec327cf"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.i686-w64-mingw32.tar.gz"
+    sha256 = "79578730acd2b7171d3da46aad3452ba0c28ec3c6ac3c0d2ef591ec87b77e2d2"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.i686-w64-mingw32.tar.gz"
+[[CGNS]]
+arch = "powerpc64le"
+git-tree-sha1 = "b7769d1b1d0736c3958ea1ad53a4f7cd9782feec"
+libc = "glibc"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "21dfba3fa35ebc0f9f516a4b8a99eccfef0458409d10a5ce93a99d3285bb3957"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.powerpc64le-linux-gnu.tar.gz"
 [[CGNS]]
 arch = "x86_64"
-git-tree-sha1 = "c99da266994e73ff9b4ed72e9ab6127a2ef3622b"
+git-tree-sha1 = "37193eec9b76e6c78afa9a2ee3635a7f678388e5"
 os = "macos"
 
     [[CGNS.download]]
-    sha256 = "5248bed633b13a82e106927035c7d5c951d0808615d6c52a73daae4ef6c97cd2"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "fbd90362de273b9a83e30f8abae2550c48f728e1f74957e2dbf3090b3f53a46e"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.x86_64-apple-darwin.tar.gz"
 [[CGNS]]
 arch = "x86_64"
-git-tree-sha1 = "19339cd0555fd3258f2c7708736829ce42bd4bae"
+git-tree-sha1 = "9ce7d3a48b5c02275ada34814d5b4da8b3807227"
 libc = "glibc"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "befcec2f88f3bc2287adde51215688e862d5fda10ae6c54d97beaf1f897f76e2"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "80ceab9b88165fa3ef2c03669e89fcd6edef88fcf8f58b8ee8886f0399d151fc"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.x86_64-linux-gnu.tar.gz"
 [[CGNS]]
 arch = "x86_64"
-git-tree-sha1 = "edb59f995dedfc0ab140bfcab1e562a24cadacdd"
+git-tree-sha1 = "b8de4dca1b89970a04e1212636fc1df8cd2d5405"
+libc = "musl"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "8d5c1e0422da219abfa14edb6f506a019f709ea78201f99f170d3ac9f62972db"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.x86_64-linux-musl.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "37bab08bde764571b864928688d887138e617c43"
+os = "freebsd"
+
+    [[CGNS.download]]
+    sha256 = "fb1de822d869b74fe4d6728f35deaaee4ddc70eca53c8030364ffa4a22917fb8"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.x86_64-unknown-freebsd.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "81ea84aea4fc38c7047d54d92f895fda45550ce5"
 os = "windows"
 
     [[CGNS.download]]
-    sha256 = "09c853e742c2c5a5f3f7215eb00a3318ecc908cd366e4ea839c96ccd7cc60a79"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.0+0/CGNS.v4.3.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "a3b2220f7dfaa9c939f4234074fdb53b91196414b566b14462d998c5c4af228f"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.3.1+0/CGNS.v4.3.1.x86_64-w64-mingw32.tar.gz"
