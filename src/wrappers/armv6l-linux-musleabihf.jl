@@ -3,7 +3,7 @@ export cgnscheck, cgnscompress, cgnsconvert, cgnsdiff, cgnslist, cgnsnames, libc
 
 using HDF5_jll
 JLLWrappers.@generate_wrapper_header("CGNS")
-JLLWrappers.@declare_library_product(libcgns, "libcgns.so.4.3")
+JLLWrappers.@declare_library_product(libcgns, "libcgns.so.4.5")
 JLLWrappers.@declare_executable_product(cgnscheck)
 JLLWrappers.@declare_executable_product(cgnscompress)
 JLLWrappers.@declare_executable_product(cgnsconvert)

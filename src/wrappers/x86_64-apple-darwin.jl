@@ -3,7 +3,7 @@ export cgnscheck, cgnscompress, cgnsconvert, cgnsdiff, cgnslist, cgnsnames, libc
 
 using HDF5_jll
 JLLWrappers.@generate_wrapper_header("CGNS")
-JLLWrappers.@declare_library_product(libcgns, "@rpath/libcgns.4.3.dylib")
+JLLWrappers.@declare_library_product(libcgns, "@rpath/libcgns.4.5.dylib")
 JLLWrappers.@declare_executable_product(cgnscheck)
 JLLWrappers.@declare_executable_product(cgnscompress)
 JLLWrappers.@declare_executable_product(cgnsconvert)
@@ -14,7 +14,7 @@ function __init__()
     JLLWrappers.@generate_init_header(HDF5_jll)
     JLLWrappers.@init_library_product(
         libcgns,
-        "lib/libcgns.4.3.dylib",
+        "lib/libcgns.4.5.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
