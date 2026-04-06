@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("CGNS")
-JLLWrappers.@generate_main_file("CGNS", UUID("5232ba32-63ef-5a57-8e6a-e52ba13cfec0"))
+JLLWrappers.@generate_main_file("CGNS", Base.UUID("5232ba32-63ef-5a57-8e6a-e52ba13cfec0"))
 end  # module CGNS_jll
