@@ -1,160 +1,655 @@
 [[CGNS]]
 arch = "aarch64"
-git-tree-sha1 = "00c04e2913abfc27d5b36fd9bd98f1506d76b2dc"
+git-tree-sha1 = "0922c0ffecce2b9f1238be368432f0a69ce09687"
+lazy = true
+mpi = "mpiabi"
 os = "macos"
 
     [[CGNS.download]]
-    sha256 = "037470e59ae48e6054e10d14c120d46cdb0d3a09edb9a6dd4d795070a65a64e5"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "57cd9a031547189ed4d6de5681f0994de22a7913d2d562c4b41c9dfec14ed49b"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-apple-darwin-mpi+mpiabi.tar.gz"
 [[CGNS]]
 arch = "aarch64"
-git-tree-sha1 = "548236a212e65ca87769042e88836c5dfba240ff"
+git-tree-sha1 = "0e9c9f1939af17c3137c14ecfbdd79dbcb30d1e7"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[CGNS.download]]
+    sha256 = "b268f60b82729a190aa9a550e9569c4a489722b24f83c8532f65cd0c73f00df3"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-apple-darwin-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "aa357192ac69b872fd5d9816fc270b15bf7e2496"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[CGNS.download]]
+    sha256 = "6ff41d9a7d78b3f2a92f14f525dc04b7bad3f29b25c7e6d078bd0bc4646a809e"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "7fc8c40237b0d87823b7e14d60f02afaa0ff1e72"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[CGNS.download]]
+    sha256 = "befe429baff34e358251adcf6335731b2c1e5174c3a72f5503623a537987af28"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-apple-darwin-mpi+openmpi.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "5a99a2412da3dfd75f854a09734c7decf3b9ebfa"
+lazy = true
 libc = "glibc"
+mpi = "mpiabi"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "f49695d12f6707db945ee6ced17053bf5b2c9b88b3377f1fbd869734199223dd"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "f1744186e72d8e27371de905cf5a2d126b7d6fa79581ea0c3f9f0bf514af6101"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-linux-gnu-mpi+mpiabi.tar.gz"
 [[CGNS]]
 arch = "aarch64"
-git-tree-sha1 = "7bfa1a4ecf4ce3940c3fef56cfff7e22836da39e"
+git-tree-sha1 = "38a01179fd527750fff285409323fbc6fb320c5f"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "37176c5e652ebd6bdc01a546026554c329da900e6208150497183123d83be199"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-linux-gnu-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "5b9aefd7f41e591e81309ef52d1b31aed729f03d"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "c96a69f85d49ac8c1e36797076b845e8862ff97f014d0130886ceacd9b21ca3a"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "2acdc96986b0d6b14c27ec7ce251a6886c4fc262"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "283421673a13083c6407a7e7913cd4d859f72a9750c28eaa28286b3ea125ac7a"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-linux-gnu-mpi+openmpi.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "90dfead3abc040bce2499e1bd290ae822d435203"
+lazy = true
 libc = "musl"
+mpi = "mpiabi"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "5b8b988033a86c51feab5135831775206dc76fa21b059d26f8a7779dd2d4976c"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-linux-musl.tar.gz"
+    sha256 = "3e41e659bf14c4218f6710d7deb83dfe299602ce0e32d6b3dc4bbe3fc359ffa2"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-linux-musl-mpi+mpiabi.tar.gz"
 [[CGNS]]
 arch = "aarch64"
-git-tree-sha1 = "042563e243ed763b55d70e86e9b9bf1648980bd5"
+git-tree-sha1 = "644ca7b59ca908815cca07b4532b1ab073aed9a8"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "43cd92394190ea39f2245fa590be966acbd2f4703b64214f50219f00441e48bd"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-linux-musl-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "5d895dafb4276760ba1a13646883f864d4b05900"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "d6caa9cb6b8ae2628c2ea1fdd49d945db1ee92a2663ddfb5c2e5cde948644138"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-linux-musl-mpi+openmpi.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "f49856e7b61234f02010cf627df1ab2209ac193e"
+lazy = true
+mpi = "mpiabi"
 os = "freebsd"
 
     [[CGNS.download]]
-    sha256 = "56d10579737b3486d3ea5b0dd4e9e8e859ee4ce8a61b9f499194eeb61afa4d24"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "63acf9b001f5339be646f0e4cb79d7840659cbef02352ae2fbc79cbabf2e88f2"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-unknown-freebsd-mpi+mpiabi.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "27cf9c9d635fd52a02ade1de74911a8efe072cfc"
+lazy = true
+mpi = "mpich"
+os = "freebsd"
+
+    [[CGNS.download]]
+    sha256 = "9a58e8551980f7b500da61425494e856ad1f894a71cc168af6cca029b68596ec"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-unknown-freebsd-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "429571c19d0b6baf3a916c70ac25813d066c6538"
+lazy = true
+mpi = "mpitrampoline"
+os = "freebsd"
+
+    [[CGNS.download]]
+    sha256 = "3a27ced84df7aa2b0ef4c5eb0444eda3862949065d6a965fbfb13a7121faadc5"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-unknown-freebsd-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "aarch64"
+git-tree-sha1 = "4e262b5666b3b47bb773a39089b9f545edc7cf72"
+lazy = true
+mpi = "openmpi"
+os = "freebsd"
+
+    [[CGNS.download]]
+    sha256 = "5642e3e35d6aa155f656e8823b5b6d051c3b6ef7cf2accea35f94fdb2c6e96c9"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.aarch64-unknown-freebsd-mpi+openmpi.tar.gz"
 [[CGNS]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "8c81e5f4162b60bd7e8a8148f49d0efbed4b7ac2"
+git-tree-sha1 = "444ae96026c0a068d5b9971f6b7e350f7eb2c4e0"
+lazy = true
 libc = "glibc"
+mpi = "mpiabi"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "ace79f970bd9da3b0e199de8e2e69cf4c8ee854a64814d12d009fa35a7d87690"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "400f2f26d8e66ecc76180a157820be97ea2579559ad081dc0de97680cb51fb1c"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv6l-linux-gnueabihf-mpi+mpiabi.tar.gz"
 [[CGNS]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "56749f5fa41ad439bca29e9c3bdcacf731ab7453"
-libc = "musl"
+git-tree-sha1 = "4af470e40d5164d89abecbfc9de3732093b608ef"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "8285a258a216c50800112d4b8398c2491b041e5b62f173f4464a21330f5389e5"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "0dc46bc5ced6fb8f3a6d5dbbe67a872ed8d5cf2bac34691791fb4ac92c396675"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv6l-linux-gnueabihf-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "bc175aa711029f4d63874eb5b6be38f49f079041"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "7a6ac95507e8a9afc22b1fcc9a0b2649c5915ea98d17103ba15bf81e6c7281c9"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv6l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "d77bd80be3aeebec4cfe680749a3ca7c5b62f530"
+lazy = true
+libc = "musl"
+mpi = "mpiabi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "d32b634d10b29d0b51b7f0fd1574cdce8b355abd96fffbc73d3e72bf019f3c55"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv6l-linux-musleabihf-mpi+mpiabi.tar.gz"
+[[CGNS]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4449ccb4f9cb7726ca27ae57441d3a5bf31f3d11"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "a909092f46486d13335470cabcb544fd008f956559ab0248238e79dc0e64c74c"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv6l-linux-musleabihf-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8126e9cb3f92c73fa538c3ab543a68c3cb19dffa"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "840403c66323c88e5e6b836fcb1d46bdc17a80a9c3e9bc454fee6c90e1a5e1fa"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv6l-linux-musleabihf-mpi+openmpi.tar.gz"
 [[CGNS]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "56a1f04c7767e85b712cb66ae37db80f57aa3689"
+git-tree-sha1 = "d6f4ecf73d039f2f93399fbaadfa9a616d650815"
+lazy = true
 libc = "glibc"
+mpi = "mpiabi"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "2c46ac5c2eb9753f6f04feec5ec7f466898814ab61d51e717ef234e2ff4a2ba0"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "69532455b55dab1399c7699e92287d4e7e310976510f5acd3874d827fe723cf8"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv7l-linux-gnueabihf-mpi+mpiabi.tar.gz"
 [[CGNS]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "470d432522dbb36eb8fdf2a40fe53876ef9c13b1"
-libc = "musl"
-os = "linux"
-
-    [[CGNS.download]]
-    sha256 = "92cd5491db4dfff253b6b0930d321de4a0285b1f70964367d065fef4e8e27920"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv7l-linux-musleabihf.tar.gz"
-[[CGNS]]
-arch = "i686"
-git-tree-sha1 = "13f3245ba3ce3fe908413ba6dcbbe17468c42653"
+git-tree-sha1 = "651930dea8fb13bbbce5aa6494d70c59b39c8029"
+lazy = true
 libc = "glibc"
+mpi = "mpich"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "bfabc690fc668ef5bf52ff451d75fef3e78e67711f32636d35331998e7c48302"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-linux-gnu.tar.gz"
+    sha256 = "0d7ddc86ac9bdc32a1cf0b35bf0c7d54f81c8f62e74d99e21fee996265c30b5d"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv7l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[CGNS]]
-arch = "i686"
-git-tree-sha1 = "3dac7316f051275386035d3964c96c0e19a1ec84"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "62384fca326ee459d9a434afe1ecafbfebadeaca"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "3c8b0cc321cd38576e1b24a4372efa1c9a6f5c9e314880e0976ddeaffa99b501"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv7l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "9e8541f9fcb3015042de863c6f0e103e3a3ba733"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "da17c26fd1cfc17ba6be51696657145a85ebe56f12fb1374ea1305afe0c61d55"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv7l-linux-gnueabihf-mpi+openmpi.tar.gz"
+[[CGNS]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "245cd3f3ef3387086d2cbbafeac5fe892c4a4b5b"
+lazy = true
 libc = "musl"
+mpi = "mpiabi"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "62e7f40c6884b69d788dcfaf51da5a3c600d2ce2239041fffa0798f3703adee6"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-linux-musl.tar.gz"
+    sha256 = "763ea72cbc47ff4620d33a473a8319c17921312bf2b3f79cc9deefd38d1603a9"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv7l-linux-musleabihf-mpi+mpiabi.tar.gz"
+[[CGNS]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5d2563da2705cbaf03f6d6f0a47ce511edf6cfe5"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "54b6a2c07b8805beea3612fe36b0cb5df21f768e6d5db7fde580e8556b731ec8"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv7l-linux-musleabihf-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "11874dbfe516c26cc7101330cf7e8f6a5c8a3bf4"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "61c04799a7250c4239e9d4a1c50deedb226f87e580747217daf422a6f5c34469"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.armv7l-linux-musleabihf-mpi+openmpi.tar.gz"
 [[CGNS]]
 arch = "i686"
-git-tree-sha1 = "84efd52ea2bd025888102fb94a034e9ac69a568c"
+git-tree-sha1 = "0822c2d1601281f1537bb4964a5fb89c543ccc11"
+lazy = true
+libc = "glibc"
+mpi = "mpiabi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "a0ab5b99cc0271e2b1e0b32b22534a1559e25f11b5e4ecddda694343f0ebb108"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-linux-gnu-mpi+mpiabi.tar.gz"
+[[CGNS]]
+arch = "i686"
+git-tree-sha1 = "86fee9d49c2d8cfc70a30cda02a592847e4bf154"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "1b6e8f019b2fe51df8924914a0ce7b927d50de515a149825a7ae574b24026bf3"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-linux-gnu-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "i686"
+git-tree-sha1 = "b9e09153bc4ff68e96c0785a8d5e9b9dffcde859"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "25b922f1a999c462d2fb25f61f5ac5b1b9b9ab8b41a4db21b8dcb88b71f52079"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "i686"
+git-tree-sha1 = "148f7828e42b1129230abcda67080fff3071dfac"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "99e8a86ebacfb12fb7b8616cab1351e68d9c25c4d27e6d8be03e308c91cc89aa"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-linux-gnu-mpi+openmpi.tar.gz"
+[[CGNS]]
+arch = "i686"
+git-tree-sha1 = "3d22c37230cd0617d88858d2c399a4774b7ea841"
+lazy = true
+libc = "musl"
+mpi = "mpiabi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "ecbe62f75ee2bcd5e8f24c561b499ef7b119a9fd7b3d8de76f68f74055a809b0"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-linux-musl-mpi+mpiabi.tar.gz"
+[[CGNS]]
+arch = "i686"
+git-tree-sha1 = "a289ee51cf60d5cb79437b3900e402a6366c8dbb"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "ac0b3139c0cf0a67d34e6a245f7fae019f287dc902ab0e6b353be07e3bcc8643"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-linux-musl-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "i686"
+git-tree-sha1 = "e8d3fd1757ee52d3a2d14090a7c93242676776c9"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "479e1240632f742ff79b1ac5d4b7dc0cfc549c4d5e209ce1a9b27a8436b3eb21"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-linux-musl-mpi+openmpi.tar.gz"
+[[CGNS]]
+arch = "i686"
+git-tree-sha1 = "018a277a7e2a9ff0a7ce2cc27330af9dff0eabf1"
+lazy = true
+mpi = "microsoftmpi"
 os = "windows"
 
     [[CGNS.download]]
-    sha256 = "eebf35ace764e8587d0c034431cbcf7dfb0a71f495b97aa7f3402bc71caa4005"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-w64-mingw32.tar.gz"
+    sha256 = "50e9a0c44966ea88e6c13d242e03c7a6d2927feafacc94370c4101b58a8fe5af"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.i686-w64-mingw32-mpi+microsoftmpi.tar.gz"
 [[CGNS]]
 arch = "powerpc64le"
-git-tree-sha1 = "dcc3c68af5d9fc75da4e343469723c9784e311d0"
+git-tree-sha1 = "c07c374652ae97c011162cc590d7e7391336e63d"
+lazy = true
 libc = "glibc"
+mpi = "mpiabi"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "3c510cb5b5020d90530f10149499143214d35189a1e73086b05c3bbe8ba4050b"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "15cfa2dc950842b41c87433064f89f18d572f634c6873085fd36bc24b0c809ca"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.powerpc64le-linux-gnu-mpi+mpiabi.tar.gz"
+[[CGNS]]
+arch = "powerpc64le"
+git-tree-sha1 = "473b845a84d978df523f25fa339851d4b5530ddb"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "f95c79943037c277415f393f554ad67e1bcf755558258bfed71064355434df10"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.powerpc64le-linux-gnu-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "powerpc64le"
+git-tree-sha1 = "6c5d22e81fd54fd7389573fbe1ebc16548bd3ba9"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "ba2bc0a5729a5f69849984194f5576e78c8989a96de74d109f31822ce223c27c"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.powerpc64le-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "powerpc64le"
+git-tree-sha1 = "aba7e50ce5e0e4649a0ac8d07969d08baeba6b48"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "7c5e694c98127f25cdce1d570f73102f5a78590c616940793dfb1e0b311e7ea7"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.powerpc64le-linux-gnu-mpi+openmpi.tar.gz"
 [[CGNS]]
 arch = "riscv64"
-git-tree-sha1 = "1707340a9b45eb293246ce64a40050b08c7e03f2"
+git-tree-sha1 = "a0f07d8f8dfa663d9461c9496bfda9651d530ecb"
+lazy = true
 libc = "glibc"
+mpi = "mpiabi"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "1044509bb47ccb109dd6c90ac9af209e91fde0e190d457e868964348514ce53a"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.riscv64-linux-gnu.tar.gz"
+    sha256 = "61363a7738142308a9881d77933588d73d1fc31cc52a6cdb89c2eb135e7d2345"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.riscv64-linux-gnu-mpi+mpiabi.tar.gz"
+[[CGNS]]
+arch = "riscv64"
+git-tree-sha1 = "55760ff949d4b88b74ca4a198b29af78c0aab72d"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "a1d4224a289ed3060a85c12b5a8fb89be6326d187094c850f2929891c02bac55"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.riscv64-linux-gnu-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "riscv64"
+git-tree-sha1 = "822e920520516befcbb8e1cc085bc3c398ce64df"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "ccf667e80ad4d4f787a3c6680491eae53468566dc3615be5d5c684bfb1aa196a"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.riscv64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "riscv64"
+git-tree-sha1 = "31bc89a3d3c74c8b0af4338fd516c5906c8f50ad"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "7b1a8f61b3431dcae8ada23f6249f8e6cb7c63856668eaf776b04251f2e85b66"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.riscv64-linux-gnu-mpi+openmpi.tar.gz"
 [[CGNS]]
 arch = "x86_64"
-git-tree-sha1 = "07f2c3939ca7ee77a1cfbbcfd0adea8364433819"
+git-tree-sha1 = "c0e490ac54c9b485b93cbee7c3130ab9cc309055"
+lazy = true
+mpi = "mpiabi"
 os = "macos"
 
     [[CGNS.download]]
-    sha256 = "2e14e71231de14f6d2e4b9c0a515986f52052b7515df2c220b6c27527e4bf54e"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "623b29bceaebd67547aaf7b6bde20c8bf75eee21fa51fcce8c5bd453ac7d5dbc"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-apple-darwin-mpi+mpiabi.tar.gz"
 [[CGNS]]
 arch = "x86_64"
-git-tree-sha1 = "83fd889299e7cc9e9670e9c150479fe3dcec0903"
+git-tree-sha1 = "b56f4ef44b5cef2f4ffa60273f752f3afe0432f5"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[CGNS.download]]
+    sha256 = "c5720d6bc1fcf94ec73d569fb885833cf5627af418caf29fcead8a298c666c8f"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-apple-darwin-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "f3caae56ad45359993a675268ac39f9af9c094d3"
+lazy = true
+mpi = "mpitrampoline"
+os = "macos"
+
+    [[CGNS.download]]
+    sha256 = "a24e8020c4f863cc8fcaaabc7e200425d09f90282b7a7303ed119480b3a9cfb3"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "e4086d58cf7619280bce0826931094a904df68a5"
+lazy = true
+mpi = "openmpi"
+os = "macos"
+
+    [[CGNS.download]]
+    sha256 = "2e7d6a86a3e117620aa0d97d27265a992224f22b2c42a4841bdfadaf08f5f166"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-apple-darwin-mpi+openmpi.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "ebed64470db40c4a7c85c5f73c186dae7e0cfc48"
+lazy = true
 libc = "glibc"
+mpi = "mpiabi"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "fe5666d850743f780677af5b8099cebf54464faa50157df8e74e4a3c6945dce7"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "6f714543203aa98e4c8dea22e8ca96f2f334f3481542cc4a88b45d36863d6184"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-linux-gnu-mpi+mpiabi.tar.gz"
 [[CGNS]]
 arch = "x86_64"
-git-tree-sha1 = "73e87a25120b20070d70e713f75bc6657b891414"
+git-tree-sha1 = "ca4ed0793f8097ab07323978cf58beabe0b73509"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "aeee0c2b3631bfd71c3360bffc360b3c69c4e4963b07939967905995b12dcb74"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-linux-gnu-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "25b493d667d0905c812f4a854a4a620b09153114"
+lazy = true
+libc = "glibc"
+mpi = "mpitrampoline"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "e7e0b3a8050ea4bf2c6a98da3624dc1487a13555319c97d51a7e6537fd5932ea"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-linux-gnu-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "12de5bf007e7c22f562202f8aff0f1b16ccbe073"
+lazy = true
+libc = "glibc"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "17798a44753d9fc9281ad0d619572e6ddb89275cacd604a000b683782616d4ad"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-linux-gnu-mpi+openmpi.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "9d0b97a6a49650a501e31ba60f87cdf96625d383"
+lazy = true
 libc = "musl"
+mpi = "mpiabi"
 os = "linux"
 
     [[CGNS.download]]
-    sha256 = "d14bcd0db5c4547e8b6826c0cd1e5c5c195ceb86d9ca8d484e9d68bc24e1b30b"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-linux-musl.tar.gz"
+    sha256 = "7107f713a4ef9c55f10084815001b66f9397e0efa50412f112067d053b56d2eb"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-linux-musl-mpi+mpiabi.tar.gz"
 [[CGNS]]
 arch = "x86_64"
-git-tree-sha1 = "26aece773458d2a2aae130d8e5508c6edd58b0c2"
+git-tree-sha1 = "a4c2aa1a747a99b30ad99a2fd5b69fc6223a034d"
+lazy = true
+libc = "musl"
+mpi = "mpich"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "916e895616d3a7c1db17a1f7a033ea34788de51a8c65b626863f72c8c767f1fa"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-linux-musl-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "414f7dc21622ba99aab8680a4f2173eee731341a"
+lazy = true
+libc = "musl"
+mpi = "openmpi"
+os = "linux"
+
+    [[CGNS.download]]
+    sha256 = "5c9f02017b9aea3f8ad45f63932a42435ca5a66d7fd809ecf991e1086714a5a5"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-linux-musl-mpi+openmpi.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "96d631f2e7384193d7d7f46b9f5c866cbbe89eb5"
+lazy = true
+mpi = "mpiabi"
 os = "freebsd"
 
     [[CGNS.download]]
-    sha256 = "3ea85c347b344f30ec5960693683b281c7c9ed21f8bb5c17db50138bcdfec675"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "07d0c13420d7457f70809bee27b7a3f3f0647c8467620c175372d8a674dd41e2"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-unknown-freebsd-mpi+mpiabi.tar.gz"
 [[CGNS]]
 arch = "x86_64"
-git-tree-sha1 = "234727faff555cf931d05c87b2b1560fb9a4b4a3"
+git-tree-sha1 = "f232188f31bcf438719fec6f05d27caf579eae23"
+lazy = true
+mpi = "mpich"
+os = "freebsd"
+
+    [[CGNS.download]]
+    sha256 = "d44f31d804e579f95d02f9dd44c5658c77dd85a4d31d5d855746dfe5d5a9917d"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "3e66a30cdf9f14e7c3e8237917952ba453025f4d"
+lazy = true
+mpi = "mpitrampoline"
+os = "freebsd"
+
+    [[CGNS.download]]
+    sha256 = "0f2ced9de63389a65d8fa1cce68dcf9a180f8aa8f2e7557a47d00211b631aec0"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-unknown-freebsd-mpi+mpitrampoline.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "e16d9c1d14be0d16daa3e7c1c25df9ea8102cb58"
+lazy = true
+mpi = "openmpi"
+os = "freebsd"
+
+    [[CGNS.download]]
+    sha256 = "e489080aed4359df3ef2d9879b1f9864d24e030b84c50668ccbf87d33df081bd"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-unknown-freebsd-mpi+openmpi.tar.gz"
+[[CGNS]]
+arch = "x86_64"
+git-tree-sha1 = "2e17ba38c66399e0faf6201632167dfc66f52471"
+lazy = true
+mpi = "microsoftmpi"
 os = "windows"
 
     [[CGNS.download]]
-    sha256 = "721bedac5ca38e091c418dbfcea37adf74ed8f0c2e1c89f20c5a7abf5ac90633"
-    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "ea4f5d7835677051728fef2e1a7d9c99a454028bf907e8583dd8c4ec0339ef3d"
+    url = "https://github.com/JuliaBinaryWrappers/CGNS_jll.jl/releases/download/CGNS-v4.5.1+0/CGNS.v4.5.1.x86_64-w64-mingw32-mpi+microsoftmpi.tar.gz"
